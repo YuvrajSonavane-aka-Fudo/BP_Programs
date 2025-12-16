@@ -3,7 +3,7 @@ def nsmallestItems(list1 , n):
         return None
     n = abs(n)
 
-    list1 = sorted(list1)
+    list1 = (sorted(list1))
     for i in range(n):
         print(list1[i])
 
