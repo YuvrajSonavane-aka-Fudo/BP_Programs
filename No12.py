@@ -3,6 +3,10 @@ sumArray = []
 
 
 def swapRows(matrix , sumArray):
+    if matrix == []:
+        return 0
+
+    
     i , k = 0,0
     sumArray = calculateSums(matrix , sumArray)
     for i in range(len(sumArray)-1):
