@@ -1,6 +1,7 @@
 num = int(input("Enter the number"))
 
 def checkWooBall(num):
+    num = abs(num)
     n = 1
     while True:
         wooballnum = (n * (2**n)) -1
